@@ -2,98 +2,81 @@
 
 Fundamentos de Python e os principais conceitos de Programação Orientada a Objetos (POO).
 
-## Trilha de estudos
+Este repositório reúne materiais de estudo, exemplos práticos e exercícios que podem ser utilizados tanto para consulta pessoal quanto por outras pessoas que estejam aprendendo Python.
 
-| # | Notebook | Principais conceitos |
-| --- | --- | --- |
-| 01 | [Primeiros passos](./notebooks/01-primeiros-passos.ipynb) | Sintaxe, variáveis, tipos, conversões, entrada, saída e operadores |
-| 02 | [Controle de fluxo](./notebooks/02-controle-de-fluxo.ipynb) | Comparações, lógica booleana, condicionais, `match`, `while`, `break` e `continue` |
-| 03 | [Coleções](./notebooks/03-colecoes.ipynb) | Listas, tuplas, conjuntos, dicionários, mutabilidade e estruturas aninhadas |
-| 04 | [Strings](./notebooks/04-strings.ipynb) | Fatiamento, métodos, validação, formatação, Unicode e expressões regulares |
-| 05 | [Laços e compreensões](./notebooks/05-lacos-e-compreensoes.ipynb) | `for`, `range`, `enumerate`, `zip`, compreensões e geradores |
-| 06 | [Funções, módulos e tipagem](./notebooks/06-funcoes-modulos-e-tipagem.ipynb) | Parâmetros, retorno, escopo, `lambda`, type hints, módulos e recursão |
-| 07 | [Arquivos e exceções](./notebooks/07-arquivos-excecoes-e-contextos.ipynb) | `pathlib`, arquivos, JSON, CSV, exceções e gerenciadores de contexto |
-| 08 | [POO: classes e objetos](./notebooks/08-poo-classes-e-objetos.ipynb) | Classes, instâncias, encapsulamento, propriedades, métodos especiais e dataclasses |
-| 09 | [POO: herança e polimorfismo](./notebooks/09-poo-heranca-composicao-e-polimorfismo.ipynb) | Herança, composição, abstração, polimorfismo e duck typing |
-| 10 | [Projeto final: biblioteca](./notebooks/10-projeto-final-biblioteca.ipynb) | Projeto integrado com regras de negócio, POO, exceções, pesquisa, JSON e testes |
+## Conteúdos
+
+- Sintaxe, variáveis e tipos de dados
+- Operadores e estruturas condicionais
+- Listas, tuplas, conjuntos e dicionários
+- Strings e processamento de texto
+- Laços de repetição e compreensões
+- Funções, módulos e tipagem
+- Manipulação de arquivos, JSON e CSV
+- Tratamento de exceções
+- Classes, objetos e encapsulamento
+- Herança, abstração, composição e polimorfismo
+- Projeto prático usando POO
 
 ## Estrutura
 
-```text
-python-fundamentals/
-├── notebooks/
-│   ├── 01-primeiros-passos.ipynb
-│   ├── 02-controle-de-fluxo.ipynb
-│   ├── 03-colecoes.ipynb
-│   ├── 04-strings.ipynb
-│   ├── 05-lacos-e-compreensoes.ipynb
-│   ├── 06-funcoes-modulos-e-tipagem.ipynb
-│   ├── 07-arquivos-excecoes-e-contextos.ipynb
-│   ├── 08-poo-classes-e-objetos.ipynb
-│   ├── 09-poo-heranca-composicao-e-polimorfismo.ipynb
-│   └── 10-projeto-final-biblioteca.ipynb
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+Os estudos estão organizados em 10 notebooks:
 
-## Pré-requisitos
+1. [`01-primeiros-passos.ipynb`](./notebooks/01-primeiros-passos.ipynb): sintaxe, variáveis, tipos, conversões, entrada, saída e operadores
+2. [`02-controle-de-fluxo.ipynb`](./notebooks/02-controle-de-fluxo.ipynb): comparações, lógica booleana, condicionais, `match` e `while`
+3. [`03-colecoes.ipynb`](./notebooks/03-colecoes.ipynb): listas, tuplas, conjuntos e dicionários
+4. [`04-strings.ipynb`](./notebooks/04-strings.ipynb): manipulação, validação e formatação de textos
+5. [`05-lacos-e-compreensoes.ipynb`](./notebooks/05-lacos-e-compreensoes.ipynb): `for`, `range`, `enumerate`, `zip`, compreensões e geradores
+6. [`06-funcoes-modulos-e-tipagem.ipynb`](./notebooks/06-funcoes-modulos-e-tipagem.ipynb): funções, parâmetros, escopo, módulos e type hints
+7. [`07-arquivos-excecoes-e-contextos.ipynb`](./notebooks/07-arquivos-excecoes-e-contextos.ipynb): arquivos, JSON, CSV, exceções e gerenciadores de contexto
+8. [`08-poo-classes-e-objetos.ipynb`](./notebooks/08-poo-classes-e-objetos.ipynb): classes, objetos, propriedades, métodos especiais e dataclasses
+9. [`09-poo-heranca-composicao-e-polimorfismo.ipynb`](./notebooks/09-poo-heranca-composicao-e-polimorfismo.ipynb): herança, abstração, composição e polimorfismo
+10. [`10-projeto-final-biblioteca.ipynb`](./notebooks/10-projeto-final-biblioteca.ipynb): sistema de biblioteca integrando os conceitos estudados
 
-- Python 3.10 ou superior;
-- `pip` para instalar o JupyterLab.
+Cada notebook possui explicações, exemplos executáveis, exercícios e soluções sugeridas. Os arquivos podem ser estudados em sequência ou consultados individualmente por tema.
 
-## Instalação
+## Tecnologias
 
-Clone o repositório e entre na pasta:
+- Python 3.10 ou superior
+- Jupyter Notebook ou JupyterLab
+- Biblioteca padrão do Python
+
+## Como executar
+
+Clone o repositório:
 
 ```bash
 git clone https://github.com/agathalafaiety/python-fundamentals.git
 cd python-fundamentals
 ```
 
-Crie e ative um ambiente virtual.
+Crie um ambiente virtual:
 
-No Windows:
+```bash
+python -m venv .venv
+```
+
+Ative o ambiente no Windows:
 
 ```powershell
-python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
 No Linux ou macOS:
 
 ```bash
-python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-Instale e abra o JupyterLab:
+Instale o JupyterLab e inicie o ambiente:
 
 ```bash
 python -m pip install -r requirements.txt
 jupyter lab
 ```
 
-Também é possível abrir os notebooks diretamente no VS Code com a extensão Jupyter.
+Os notebooks também podem ser abertos pelo VS Code com a extensão Jupyter ou visualizados diretamente no GitHub.
 
-## Como estudar
+## Autoria
 
-1. Siga os notebooks na ordem numérica.
-2. Execute as células de cima para baixo.
-3. Altere os exemplos e observe os resultados.
-4. Resolva cada seção **Pratique** antes de consultar a solução sugerida.
-5. No projeto final, implemente os desafios propostos para consolidar o aprendizado.
-
-## O que você será capaz de fazer
-
-Ao concluir a trilha, você terá praticado:
-
-- os tipos e estruturas essenciais da linguagem;
-- decisões, repetições, funções e organização de código;
-- leitura, escrita e serialização de dados;
-- tratamento de erros e validação de regras;
-- modelagem orientada a objetos;
-- criação de um pequeno sistema completo e testável.
-
-##
 Desenvolvido por [Agatha Lafaiety](https://github.com/agathalafaiety).
