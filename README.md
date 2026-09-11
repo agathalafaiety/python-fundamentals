@@ -1,8 +1,6 @@
 # Python Fundamentals
 
-Trilha prática e progressiva para aprender os fundamentos de Python e os principais conceitos de Programação Orientada a Objetos (POO).
-
-O projeto contém 10 notebooks executáveis, com explicações, exemplos, exercícios e soluções sugeridas. Todos os exemplos usam apenas a biblioteca padrão do Python.
+Trilha prática para aprender os fundamentos de Python e os principais conceitos de Programação Orientada a Objetos (POO).
 
 ## Trilha de estudos
 
@@ -97,6 +95,5 @@ Ao concluir a trilha, você terá praticado:
 - modelagem orientada a objetos;
 - criação de um pequeno sistema completo e testável.
 
-## Autoria
-
+##
 Desenvolvido por [Agatha Lafaiety](https://github.com/agathalafaiety).
