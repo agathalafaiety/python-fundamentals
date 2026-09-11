@@ -77,6 +77,5 @@ jupyter lab
 
 Os notebooks também podem ser abertos pelo VS Code com a extensão Jupyter ou visualizados diretamente no GitHub.
 
-## Autoria
-
+##
 Desenvolvido por [Agatha Lafaiety](https://github.com/agathalafaiety).
