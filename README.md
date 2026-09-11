@@ -1,6 +1,6 @@
 # Python Fundamentals
 
-Trilha prática para aprender os fundamentos de Python e os principais conceitos de Programação Orientada a Objetos (POO).
+Fundamentos de Python e os principais conceitos de Programação Orientada a Objetos (POO).
 
 ## Trilha de estudos
 
